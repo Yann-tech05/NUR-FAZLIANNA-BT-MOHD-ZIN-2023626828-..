@@ -1,0 +1,41 @@
+body {
+    background-image: url("image/beads.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    }
+
+h1, h2 {
+    font-family: Trebuchet MS, sans-serif ;
+    color: saddlebrown;
+    text-align: center;
+}
+body, p, li{
+    font-family: Times New Roman, sans-serif;
+}
+button {
+    padding: 10px 20px;
+    background-color: darkgoldenrod;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid;
+    background-color:lightgrey;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}

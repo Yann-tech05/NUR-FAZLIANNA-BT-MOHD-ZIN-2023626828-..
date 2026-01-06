@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Family and Hobby</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>My Family & Hobby</h1>
+
+   
+   <h2>My Family</h2>
+
+<script>
+		function family(a)
+		 {
+			var pic;
+			if (a==1) 
+			{
+				pic="image/family1.jpeg"
+			}
+		    if (a==2)
+			 {
+                pic="image/family2.jpeg"
+			}
+		    if (a==3)
+			{
+				pic="image/family3.jpeg"
+			}
+			if (a==4)
+			{
+				pic="image/family4.jpeg"
+			}
+			document.getElementById("family").src=pic;
+		}
+	</script>
+    <img src="image/family1.jpeg" width="300" height="400" id="family">
+    <p>
+    	<button type="button" onclick="family(1)">Image 1</button>
+    	<button type="button" onclick="family(2)">Image 2</button>
+    	<button type="button" onclick="family(3)">Image 3</button>
+    	<button type="button" onclick="family(4)">Image 4</button>
+    </p>
+
+ 
+    <p>My family is loving and supportive. We enjoy spending quality time together and sharing memorable experiences that make our bond stronger.</p>
+
+  
+    <h2>My Cats</h2>
+
+     <script>
+        function cat(a)
+         {
+            var pic;
+            if (a==1) 
+            {
+                pic="image/oyen.jpeg"
+            }
+            if (a==2)
+             {
+                pic="image/hitam.jpeg"
+            }
+            if (a==3)
+            {
+                pic="image/putih.jpeg"
+            }
+            if (a==4)
+            {
+                pic="image/tompok.jpeg"
+            }
+            document.getElementById("cat").src=pic;
+        }
+    </script>
+
+    <img src="image/oyen.jpeg" width="300" height="400" id="cat">
+    <p>
+        <button type="button" onclick="cat(1)">OYEN</button>
+        <button type="button" onclick="cat(2)">HITAM</button>
+        <button type="button" onclick="cat(3)">PUTIH</button>
+        <button type="button" onclick="cat(4)">TOMPOK</button>
+            
+    </p>
+    <p>My cats are playful and adorable. Their names are Oyen, Hitam, Putih, and Tompok. Each of them has a unique personality that brightens my days.</p>
+
+   
+    <h2>My Hobbies</h2>
+    <table class="hobby-table">
+        <tr>
+            <td><img src="image/movie.jpeg" alt="Watching Movie" height="200px" width="200px"></td>
+            <td>I enjoy watching movie if I have free time.<br>I prefer watching movie rather than series because it will not take lot of time to finish watching.</td>
+        </tr>
+        <tr>
+            <td><img src="image/coloring.jpeg" alt="Coloring" height="200px" width="200px"></td>
+            <td>Coloring helps me relax and explore my creativity by trying different designs and colors.</td>
+        </tr>
+        <tr>
+            <td><img src="image/cc.jpeg" alt="Playing Simple Games" height="200px" width="200px"></td>
+            <td>By playing this simple games helps me to escape from my stressful life.<br>I was really enjoying this game because it make me thinking about a stratergy to win.</td>
+        </tr>
+    </table>
+
+   
+    <script>
+        function changeFamilyImage(src) {
+            document.getElementById('familyImage').src = src;
+        }
+
+        function changeCatImage(src) {
+            document.getElementById('catImage').src = src;
+        }
+    </script>
+<br>
+<a href="index.html">
+    <button>Back to Home</button>
+</a>
+
+</body>
+</html>
